@@ -78,7 +78,9 @@ Expo CLI (optional)
 
 ## 1️⃣ Clone & Install
 git clone <your-repository-link>
+
 cd TO-DO-APP
+
 npm install
 
 ## 2️⃣ Start Development Server
