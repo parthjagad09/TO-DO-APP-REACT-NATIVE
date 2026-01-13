@@ -32,10 +32,12 @@ Confirmation logic prevents accidental task removal, enhancing data safety.
 
 📌 Add screenshots after pushing images to the repository (recommended: /assets/screenshots/)
 
-Web Interface
+## Web Interface
+
 ![Web Interface](./screenshots/webinterface.jpeg)
 
-Mobile View
+## Mobile View
+
 ![Mobile View](./screenshots/mobileinterface.jpeg)
 
 ## ⚡Tech Stack
@@ -87,20 +89,6 @@ npx expo start
 Web: Press w in the terminal
 
 Mobile: Scan the QR code using Expo Go (Android) or Camera App (iOS)
-
-Engineering Highlights
-
-Clean Component Separation
-Input handling (AddTask) and task rendering (TaskItem) are decoupled for improved reusability and testing.
-
-Optimized Event Handling
-Carefully managed delete actions to ensure smooth interaction across touch and mouse interfaces.
-
-Platform Awareness
-Used Platform.select and custom styles (e.g., outlineStyle: 'none') to align Web and Mobile UI behavior.
-
-Performance-Focused Design
-Lightweight state updates ensure fast rendering even with multiple tasks.
 
 ## Developer
 
